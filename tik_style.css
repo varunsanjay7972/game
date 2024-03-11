@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: radial-gradient( #113275, #74108d);
+    /* background: radial-gradient(); */
+    text-align: center;
+}
+
+.container {
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5vmin;
+}
+
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    background-color: rgb(244, 244, 142);
+    color: black;
+    border: none;
+    box-shadow: 0 0 1rem #c9a2d0;
+    font-size: 8vmin;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.reset {
+    padding: 0.5rem;
+    height: 8vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    background-color: #de35d3;
+    border: none;
+    box-shadow: 0 0 1rem #c771d6;
+    font-size: 2vmin;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.newgame {
+    padding: 0.5rem;
+    height: 8vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    background-color: #de35d3;
+    border: none;
+    box-shadow: 0 0 1rem #c771d6;
+    font-size: 2vmin;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.home {
+    height: 60vmin;
+    width: 75vmin;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5vmin;
+    /* border: solid black 3px; */
+    background-color: #5d389d;
+    margin-top: 10%;
+    border-radius: 3rem;
+}
+
+input {
+    flex: 1;
+    border: none;
+    outline: none;
+    background-color: white;
+    font-weight: bolder;
+    font-size: 0.8rem;
+    border-radius: 2rem;
+    padding: 0.75rem;
+    margin: 0.25rem;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 2.25rem;
+}
+
+.blur {
+    filter: blur(5px);
+}
